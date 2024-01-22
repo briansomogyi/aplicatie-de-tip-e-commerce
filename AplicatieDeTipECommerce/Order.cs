@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace AplicatieDeTipECommerce
 {
-    public class Order
+    internal class Order
     {
-        public Order(string customer, DateTime date, decimal total) 
+        internal Order(string customer, DateTime date, decimal total) 
         {
             Customer = customer;
             Date = date;
             Total = total;
         }
 
-        public string Customer {  get; set; }
+        internal string Customer {  get; set; }
 
-        public DateTime Date { get; set; }
+        internal DateTime Date { get; set; }
 
-        public decimal Total { get; set; }
+        internal decimal Total { get; set; }
 
 
     }
