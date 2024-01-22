@@ -15,7 +15,7 @@ namespace AplicatieDeTipECommerce
                 throw new ArgumentNullException($"{nameof(order)}","Cannot insert a null order.");
             }
 
-            Console.WriteLine($"Customer {order.Customer} is paying ${order.Total} by {paymentSystem.PaymentMethod} now at {order.Date}");
+            Console.WriteLine($"Customer {order.Customer} payed ${order.Total} by {paymentSystem.PaymentMethod} for something he ordered at {order.Date}");
         }
     }
 }
