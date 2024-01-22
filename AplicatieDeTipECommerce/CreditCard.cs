@@ -12,7 +12,7 @@ namespace AplicatieDeTipECommerce
 
         internal override void PaymentFunctionality(decimal paymentAmount)
         {
-            Console.WriteLine($"Paying ${paymentAmount} by {nameof(CreditCard)}.");
+            Console.WriteLine($"Paying ${paymentAmount} by credit card.");
         }
     }
 }
